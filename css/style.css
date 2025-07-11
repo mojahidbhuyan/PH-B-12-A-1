@@ -74,3 +74,40 @@
 }
 
 /* -----Banner style End----- */
+
+/* Webflow Section Start  */
+
+.webflow-conf{
+    width: 1140px;
+    margin: 0;
+    padding: 100px;
+}
+
+.webflow-conf-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.webflow-heading{
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.webflow-paragraph{
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 30px;
+    width: 517px;
+
+}
+
+.webflow-img{
+    border-radius: 50px;
+    width: 403px;
+    height: 328px;
+}
+
+
+
+/* Webflow Section End  */
