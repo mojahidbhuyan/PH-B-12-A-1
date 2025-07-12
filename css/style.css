@@ -337,6 +337,13 @@ body{
     text-align: center;
     padding-bottom: 20px;
 }
+.footer-text{
+    color: #7a7a9d;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    line-height: 24px;
+}
 
 .f-nav{
     display: flex;
@@ -348,12 +355,14 @@ body{
 .f-nav a{
     color: #7a7a9d;
     text-decoration: none;
-    text-align: center;
+    font-size: 15px;
+    transition: color 0.3s ease;
 }
 
 .f-nav a:hover{
     color: #4f46e5
 }
+
 
 
 
