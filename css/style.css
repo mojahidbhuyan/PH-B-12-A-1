@@ -24,6 +24,11 @@
 }
 
 
+body{
+    background: #f6f8ff;
+}
+
+
 /* -----Header Style start----- */
 
 /* -----Nav style Start----- */
@@ -114,14 +119,23 @@
 
 
 /* User Section Style Start  */
+
+
+
+.user-heading-title{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
 .user-heading{
     width: 1140px;
     margin: 0 auto;
     padding: 50px 0 50px 0;
     border-radius: 24px;
-    background: rgba(78,71,255,0.1);
-
+    background: rgba(78,71,255,0.1)
 }
+
 
 .user-item{
     display: flex;
@@ -130,19 +144,80 @@
     text-align: center;
     margin-top: 30px;
 }
-
-.user-heading-title{
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
-}
-
 .user-item-number{
     font-family: inter;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 80px;
     color: #3e5dfe;
 }
 
+.user-item-paragraph{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
 
 /* User Section Style End  */
+.review{
+    text-align:center;
+    padding: 130px 0 100px 0;
+}
+
+.review-mini{
+    text-align: left;
+    background: white;
+    border: 1px solid #f2eded;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.review-main{
+    width: 1140px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin:  0 auto;
+}
+.review-child-contain{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.review-h1{
+    font-size: 24px;
+    font-weight: bold;
+    color:#1E1E1E
+}
+
+.review-p{
+    font-size: 16px;
+    font-weight: 400px;
+    color:#1E1E1E;
+
+}
+
+.review-child-contain img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.review-child-contain h3{
+    font-weight: bold;
+    font-size: 16px;
+    color:#757575
+}
+
+/* Review Section style start  */
+
