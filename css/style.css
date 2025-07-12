@@ -221,3 +221,44 @@ body{
 
 /* Review Section style start  */
 
+/* <!--focus section style start  --> */
+
+.focus{
+    background: white;
+    border-radius: 20px;
+    padding: 60px 0 60px 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.img img{
+    max-width: 100%;
+    border-radius: 32px;
+}
+
+.extra-btn{
+    margin-bottom: 30px;
+    font-weight:lighter;
+    border-radius: 10px;
+    color:#FFFFFF 
+
+}
+
+.content h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.content p{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+/* <!--focus section style End  --> */
+
+
+
+
