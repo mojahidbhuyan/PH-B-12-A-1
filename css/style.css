@@ -10,6 +10,11 @@
   font-style: normal;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* -----Shared Style----- */
 .main-button{
     font-size: 16px;
@@ -21,6 +26,10 @@
     border: none;
     width: fit-content;
 
+}
+
+.main-button:hover {
+    background-color: #F0C40F;
 }
 
 
@@ -112,14 +121,10 @@ body{
     width: 403px;
     height: 328px;}
 
-
-
-
 /* Webflow Section End  */
 
 
 /* User Section Style Start  */
-
 
 
 .user-heading-title{
@@ -127,7 +132,6 @@ body{
     font-size: 38px;
     text-align: center;
 }
-
 .user-heading{
     width: 1140px;
     margin: 0 auto;
@@ -136,7 +140,6 @@ body{
     background: rgba(78,71,255,0.1)
 }
 
-
 .user-item{
     display: flex;
     justify-content: space-around;
@@ -144,6 +147,7 @@ body{
     text-align: center;
     margin-top: 30px;
 }
+
 .user-item-number{
     font-family: inter;
     font-weight: 700;
@@ -157,7 +161,6 @@ body{
 }
 
 
-
 /* User Section Style End  */
 .review{
     text-align:center;
@@ -166,7 +169,7 @@ body{
 
 .review-mini{
     text-align: left;
-    background: white;
+    background: #FFFFFF;
     border: 1px solid #f2eded;
     border-radius: 14px;
     padding: 24px;
@@ -204,7 +207,6 @@ body{
     font-size: 16px;
     font-weight: 400px;
     color:#1E1E1E;
-
 }
 
 .review-child-contain img{
@@ -362,10 +364,6 @@ body{
 .f-nav a:hover{
     color: #4f46e5
 }
-
-
-
-
 
 /* Footer Section Style End */
 
