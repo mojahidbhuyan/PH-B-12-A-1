@@ -325,3 +325,38 @@ body{
 
 /* <!-- Form Section Style End  --> */
 
+/* Footer Section Style Start  */
+
+.footer{
+    text-align: center;
+    padding: 100px 0 20px 0 ;
+    background-color: white;
+}
+.logo-img img{
+    width: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.f-nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.f-nav a{
+    color: #7a7a9d;
+    text-decoration: none;
+    text-align: center;
+}
+
+.f-nav a:hover{
+    color: #4f46e5
+}
+
+
+
+
+/* Footer Section Style End */
+
