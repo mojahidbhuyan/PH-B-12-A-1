@@ -260,5 +260,49 @@ body{
 /* <!--focus section style End  --> */
 
 
+/* <!-- Form Section Style Start  --> */
 
+.form-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1140px;
+    gap: 140px;
+    margin: 0 auto;
+}
+
+.form-text{
+    font-size: 93px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.form-D{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.form-D label{
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.form-D textarea{
+    height: 120px;
+
+}
+
+.form-D input,
+.form-D textarea {
+    width: 100%;
+    padding: 12px 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* <!-- Form Section Style End  --> */
 
